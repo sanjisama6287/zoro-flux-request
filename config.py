@@ -21,7 +21,7 @@ API_HASH = os.environ.get("API_HASH", "3a1190585fe5bf1f6324be87ba5b68c6")
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002031978775"))
 
-CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002246772027"))
+CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002086247957"))
 CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "1002086247957"))
 
 #OWNER ID
@@ -35,7 +35,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobot
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002086247957"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002246772027"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
