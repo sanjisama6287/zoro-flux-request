@@ -31,23 +31,16 @@ async def start_command(client: Client, message):
         if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=client.link_one)
-            ]]
-            try:
-                if client.link_two is not None and message.from_user.id not in ADMINS and not await is_requested_two(message):
-                    btn.append(
-                          [
+                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ ", url=client.link_one),
                         InlineKeyboardButton(
-                            " Jᴏɪɴ Cʜᴀɴɴᴇʟ ", url = client.invitelink)
+                            " Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=client.link_two)
                           ]
-                    )
-            except Exception as e:
-                print(e)
+            ]
             try:
                 btn.append(
                       [
                         InlineKeyboardButton(
-                             text = 'Try Again',
+                             text = '♻️ Tʀʏ Aɢᴀɪɴ ♻️',
                              url = f"https://t.me/{client.username}?start={message.command[1]}"
                         )
                     ]
@@ -56,22 +49,23 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**Please request Join the Following Channels to use this Bot!**",
+                text="**You need to join in my Channels \n          To use me\n\nKindly Please join Channels.**",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
             return
+          
         if client.link_two is not None and message.from_user.id not in ADMINS and not await is_requested_two(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ ", url=client.link_two)
+                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=client.link_two)
             ]]
             try:
                 if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
                     btn.append(
-                          [
+                          [ 
                         InlineKeyboardButton(
-                            "Jᴏɪɴ Cʜᴀɴɴᴇʟ ", url= client.invitelink)
+                            "Jᴏɪɴ Cʜᴀɴɴᴇʟ ", url=client.link_one)
                           ]
                     )
             except Exception as e:
@@ -153,10 +147,20 @@ async def start_command(client: Client, message):
         return
     else:
         reply_markup = InlineKeyboardMarkup(
-            [
+            [ [
+                    InlineKeyboardButton(text="🏖️", callback_data="about"),
+                    InlineKeyboardButton(text="🍂", callback_data="about"),
+                    InlineKeyboardButton(text="⚠️", callback_data="me"),
+                    InlineKeyboardButton(text="💸", callback_data="about"),
+                    InlineKeyboardButton(text="🎭", callback_data="about"),
+                ],         
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
+                    InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data = "source")
+                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "http://t.me/UnseenRobot/shorts") ],
+                [
+                    InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
+                    InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -249,3 +253,4 @@ async def purge_req_two(bot, message):
     r = await message.reply("`processing...`")
     await delete_all_two()
     await r.edit("**Req db Cleared**" )
+    
