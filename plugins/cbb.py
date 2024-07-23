@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                         InlineKeyboardButton("ᴀᴅᴍɪɴ ",url=(SCREENSHOT_URL))
                     ],
                     [   
-                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ 🚫", callback_data = "close")
+                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
                     ]
                 ]
             )
@@ -55,14 +55,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [
-                    [ InlineKeyboardButton(text="🏖️", callback_data="about"),
-                    InlineKeyboardButton(text="🍂", callback_data="about"),
-                    InlineKeyboardButton(text="⚠️", callback_data="me"),
-                    InlineKeyboardButton(text="💸", callback_data="about"),
-                    InlineKeyboardButton(text="🎭", callback_data="about"),
-                ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url = "t.me/InkaLinks" ),
-                    InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url = "https://t.me/+nrNgQ7sT3XQxZTc1")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "http://t.me/UnseenRobot/shorts") ],
                 [
                     InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
                     InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
@@ -101,7 +93,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                         InlineKeyboardButton("ᴀᴅᴍɪɴ ",url=(SCREENSHOT_URL))
                     ],
                     [   InlineKeyboardButton("🔙 ʙᴀᴄᴋ" , callback_data = "home"),
-                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ 🚫", callback_data = "close")
+                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
                     ]
                 ]
             )
