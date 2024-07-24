@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text =f"<b><blockquote>★ ᴏᴡɴᴇʀ : <a href='t.me/InkaLinks'>ɪɴᴋᴀ ᴄʜɪᴘs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/publicfille'>ᴘᴜʙʟɪᴄ ғɪʟᴇ</a>\n★ ᴘᴀɪᴅ ʙᴏᴛ : <a href='https://t.me/ifeelscam'>ᴍʀ.sʜᴀɪᴋʜ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/offchats'>ᴄᴏᴅᴇ ᴍᴏɴᴋᴇʏ's </a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/ifeelscam'>ʜᴀᴍᴢᴀ</a></blockquote></b>",
+            text =f"<b><blockquote>★ ᴏᴡɴᴇʀ : <a href='t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴘᴀɪᴅ ʙᴏᴛ : <a href='https://t.me/ifeelscam'>ᴍʀ.sʜᴀɪᴋʜ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/offchats'>ᴄᴏᴅᴇ ᴍᴏɴᴋᴇʏ's </a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/ifeelscam'>ʜᴀᴍᴢᴀ</a></blockquote></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/+NeqCUg-QDxo2Nzll"),
@@ -31,7 +31,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "home":
         await query.message.edit_text(
-            text=f"👋 Hey {query.from_user.mention}\n\n<b><blockquote>I'm advance bot of providing videos from a certain Channel!!.</blockquote></b>",
+            text=f"Kᴏɴɴɪᴄʜɪᴡᴀ!! {query.from_user.mention}⚡\n\n<b><blockquote>ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a></blockquote></b>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [
