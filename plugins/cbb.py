@@ -4,8 +4,6 @@ from pyrogram import __version__
 from bot import Bot
 from config import OWNER_ID
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from config import PRICE1, PRICE2, PRICE3, PRICE4, PRICE5, UPI_ID, UPI_IMAGE_URL, SCREENSHOT_URL
-
 
 @Bot.on_callback_query()
 async def cb_handler(client: Bot, query: CallbackQuery):
@@ -26,23 +24,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 ]
             )
         )
-
-    elif data == "buy_prem":
-        await query.message.edit_text(
-            text=f"👋 Hello  {query.from_user.mention}\n\n🎖️ Available Plans :\n\n● ₹{PRICE1}Rs For 7 Days Prime Membership\n\n● ₹{PRICE2}Rs For 1 Month Prime Membership\n\n● ₹{PRICE3}Rs For 3 Months Prime Membership\n\n● ₹{PRICE4}Rs For 6 Months Prime Membership\n\n● ₹{PRICE5}Rs For 1 Year Prime Membership\n\n\n🔖 If you want to purchase Prime membership then please Contact Bot Owner & Admin\n\nOwner & Admin accounts are mentioned below",
-            disable_web_page_preview=True,
-            reply_markup = InlineKeyboardMarkup(
-                [   
-                    [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="t.me/justchips"),
-                        InlineKeyboardButton("ᴀᴅᴍɪɴ ",url=(SCREENSHOT_URL))
-                    ],
-                    [   
-                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
-                    ]
-                ]
-            )
-        )
     elif data == "close":
         await query.message.delete()
         try:
@@ -51,7 +32,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "home":
         await query.message.edit_text(
-            text=f"👋 Hey {query.from_user.mention}\n\n<b><blockquote>I'm advance bot of providing videos for @Inkalinks Channel!!.</blockquote></b>",
+            text=f"👋 Hey {query.from_user.mention}\n\n<b><blockquote>I'm advance bot of providing videos from a certain Channel!!.</blockquote></b>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -82,19 +63,4 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 )
          )
 
-    elif data == "buy":
-        await query.message.edit_text(
-            text=f"👋 Hello  {query.from_user.mention}\n\n🎖️ Available Plans :\n\n● ₹{PRICE1}Rs For 7 Days Prime Membership\n\n● ₹{PRICE2}Rs For 1 Month Prime Membership\n\n● ₹{PRICE3}Rs For 3 Months Prime Membership\n\n● ₹{PRICE4}Rs For 6 Months Prime Membership\n\n● ₹{PRICE5}Rs For 1 Year Prime Membership\n\n\n🔖 If you want to purchase Prime membership then please Contact Bot Owner & Admin\n\nOwner & Admin accounts are mentioned below",
-            disable_web_page_preview=True,
-            reply_markup = InlineKeyboardMarkup(
-                [   
-                    [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="t.me/Justchips"),
-                        InlineKeyboardButton("ᴀᴅᴍɪɴ ",url=(SCREENSHOT_URL))
-                    ],
-                    [   InlineKeyboardButton("🔙 ʙᴀᴄᴋ" , callback_data = "home"),
-                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
-                    ]
-                ]
-            )
-        )
+    
