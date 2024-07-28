@@ -31,13 +31,10 @@ async def start_command(client: Client, message):
         if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1 ", url=client.link_one),
+                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ ", url=client.link_one),
                         InlineKeyboardButton(
-                            " Jᴏɪɴ Cʜᴀɴɴᴇʟ 2 ", url=client.link_two)
+                            " Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=client.link_two)
                           ]
-        [
-            InlineKeyboardButton(text=" Jᴏɪɴ Cʜᴀɴɴᴇʟ 3 ", url=client.invitelink),
-           ]
             ]
             try:
                 btn.append(
