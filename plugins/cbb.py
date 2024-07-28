@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text =f"<b><blockquote>★ ᴏᴡɴᴇʀ : <a href='t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴘᴀɪᴅ ʙᴏᴛ : <a href='https://t.me/urr_sanjii_robot'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+iEiMt9WevHwzNzM1'>ᴄᴏᴅᴇ ᴍᴏɴᴋᴇʏ's </a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/urr_sanjii'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a></blockquote></b>",
+            text =f"<b><blockquote>★ ᴏᴡɴᴇʀ : <a href='t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n★ ᴘᴀɪᴅ ʙᴏᴛ : <a href='https://t.me/urr_sanjii_robot'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+iEiMt9WevHwzNzM1'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ Gʀᴏᴜᴘ</a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/urr_sanjii'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a></blockquote></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/+htT0vqGSbBI5Yjg1"),
                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , url= "https://t.me/Straw_Hat_Bots")],
-                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ ᴠɪᴅᴇᴏs",url = "https://t.me/The_Hentai_Society")],
+                 [InlineKeyboardButton("Pʀᴇᴍɪᴜᴍ Hᴇɴᴛᴀɪ",url = "https://t.me/The_Hentai_Society")],
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
