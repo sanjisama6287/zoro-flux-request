@@ -16,7 +16,7 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7375069141:AAEmo5iW9il62JxIlo_x8Z
 APP_ID = int(os.environ.get("APP_ID", "28525384"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "3a1190585fe5bf1f6324be87ba5b68c6")
+API_HASH = os.environ.get("API_HASH", "17a51c14e6c25caad1a8f63a97c51f96")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002031978775"))
