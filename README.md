@@ -7,4 +7,10 @@
 </p>
 
 
-PORT : 8080
+• PORT : 8080
+
+# EXTRA COMMAND FEATURE
+
+1) /purge_one
+2) /purge_two
+   
