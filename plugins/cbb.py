@@ -10,11 +10,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text =f"<b>★ ᴏᴡɴᴇʀ : <a href='t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n★ ᴘᴀɪᴅ ʙᴏᴛ : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+Euuw_DXNxhxkMjFl'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ Gʀᴏᴜᴘ</a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/urr_sanjiii'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a></b>",
+            text =f"<b>★ ᴏᴡɴᴇʀ : <a href='t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n★ ᴘᴀɪᴅ ʙᴏᴛ : <a href='https://t.me/aniverseXsupport_robot'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+Euuw_DXNxhxkMjFl'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ Gʀᴏᴜᴘ</a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/aniverseXsupport_robot'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/+htT0vqGSbBI5Yjg1"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , url= "https://t.me/Straw_Hat_Bots")],
+                  InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs" , url= "https://t.me/Straw_Hat_Bots")],
                  [InlineKeyboardButton("Mᴀɪɴ Cʜᴀɴɴᴇʟ",url = "https://t.me/Ongoing_Anime_Aniverse")],
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
@@ -55,7 +55,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 disable_web_page_preview=True,
                 reply_markup = InlineKeyboardMarkup(
                     [
-                        [ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ",url = "https://t.me/+Euuw_DXNxhxkMjFl")],
+                        [ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ",url = "https://t.me/aniverseXsupport_robot")],
                         [ InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data = "home"),
                          InlineKeyboardButton( "🚫 ᴄʟᴏsᴇ", callback_data = "close")]
                     ]
