@@ -21,6 +21,10 @@
       "description": "your app id, take it from my.telegram.org",
       "value": ""
     },
+    "API_HASH":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": ""
+    },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
       "value": "url"
