@@ -13,4 +13,5 @@ EXTRA COMMAND FEATURE
 
 1) /purge_one
 2) /purge_two
-   
+
+Run command = python3 main.py
