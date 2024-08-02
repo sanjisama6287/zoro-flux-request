@@ -15,7 +15,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/+htT0vqGSbBI5Yjg1"),
                   InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs" , url= "https://t.me/Straw_Hat_Bots")],
-                 [InlineKeyboardButton("Mᴀɪɴ Cʜᴀɴɴᴇʟ",url = "https://t.me/Ongoing_Anime_Aniverse")],
+                 [InlineKeyboardButton("Mᴀɪɴ Cʜᴀɴɴᴇʟ",url = "https://t.me/+q7SYekja3XUyNjY1")],
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
