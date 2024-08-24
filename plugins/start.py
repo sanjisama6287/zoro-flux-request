@@ -31,9 +31,12 @@ async def start_command(client: Client, message):
         if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Gʀᴏᴜᴘ", url=client.link_one),
+                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_one),
                         InlineKeyboardButton(
-                            "Jᴏɪɴ Bᴀᴄᴋᴜᴘ", url=client.link_two)
+                            "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_two)
+            ],[
+                InlineKeyboardButton(
+                    "Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/+Hnjhc04sgEE1MGU1")
             ]
             ]
             try:
@@ -58,14 +61,14 @@ async def start_command(client: Client, message):
         if client.link_two is not None and message.from_user.id not in ADMINS and not await is_requested_two(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Gʀᴏᴜᴘ", url=client.link_two)
+                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_two)
             ]]
             try:
                 if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
                     btn.append(
                           [ 
                         InlineKeyboardButton(
-                            "Jᴏɪɴ Bᴀᴄᴋᴜᴘ", url=client.link_one)
+                            "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_one)
                           ]
                     )
             except Exception as e:
