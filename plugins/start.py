@@ -31,7 +31,7 @@ async def start_command(client: Client, message):
         if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=client.link_one),
+                    "Jᴏɪɴ Gʀᴏᴜᴘ", url=client.link_one),
                         InlineKeyboardButton(
                             "Jᴏɪɴ Bᴀᴄᴋᴜᴘ", url=client.link_two)
             ]
@@ -49,7 +49,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="Kᴏɴɴɪᴄʜɪᴡᴀ {mention}👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
+                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
@@ -58,14 +58,14 @@ async def start_command(client: Client, message):
         if client.link_two is not None and message.from_user.id not in ADMINS and not await is_requested_two(message):
             btn = [[
                 InlineKeyboardButton(
-                    "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_two)
+                    "Jᴏɪɴ Gʀᴏᴜᴘ", url=client.link_two)
             ]]
             try:
                 if client.link_one is not None and message.from_user.id not in ADMINS and not await is_requested_one(message):
                     btn.append(
                           [ 
                         InlineKeyboardButton(
-                            "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_one)
+                            "Jᴏɪɴ Bᴀᴄᴋᴜᴘ", url=client.link_one)
                           ]
                     )
             except Exception as e:
@@ -74,7 +74,7 @@ async def start_command(client: Client, message):
                 btn.append(
                       [
                         InlineKeyboardButton(
-                             text = 'Try Again',
+                             text = '♻️ Tʀʏ Aɢᴀɪɴ ♻️',
                              url = f"https://t.me/{client.username}?start={message.command[1]}"
                         )
                     ]
@@ -83,7 +83,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="Kᴏɴɴɪᴄʜɪᴡᴀ {mention}👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ Try Again ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
+                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
