@@ -34,10 +34,7 @@ async def start_command(client: Client, message):
                     "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_one),
                         InlineKeyboardButton(
                             "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_two)
-            ],[
-                InlineKeyboardButton(
-                    "Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/+Hnjhc04sgEE1MGU1")
-            ]
+                          ],[ InlineKeyboardButton(" Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/+Hnjhc04sgEE1MGU1")]
             ]
             try:
                 btn.append(
@@ -52,7 +49,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
+                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Try Again ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
@@ -77,7 +74,7 @@ async def start_command(client: Client, message):
                 btn.append(
                       [
                         InlineKeyboardButton(
-                             text = '♻️ Tʀʏ Aɢᴀɪɴ ♻️',
+                             text = 'Try Again',
                              url = f"https://t.me/{client.username}?start={message.command[1]}"
                         )
                     ]
@@ -86,7 +83,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
+                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️Try Again ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
