@@ -34,7 +34,7 @@ async def start_command(client: Client, message):
                     "Jᴏɪɴ Cʜᴀɴɴᴇʟ 1", url=client.link_one),
                         InlineKeyboardButton(
                             "Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_two)
-                          ],[ InlineKeyboardButton(" Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/+Hnjhc04sgEE1MGU1")]
+                          ],[ InlineKeyboardButton("Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/+Hnjhc04sgEE1MGU1")]
             ]
             try:
                 btn.append(
@@ -49,7 +49,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ Try Again ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
+                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐎ᴛᴀᴋᴜ ✨,\n\n𝐃ᴜᴇ ᴛᴏ 𝐎ᴠᴇʀʟᴏᴀᴅ, 𝐎ɴʟʏ 𝐂ʜᴀɴɴᴇʟ 𝐒ᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ 𝐁ᴏᴛ !! ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : @Anime_Flux...",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
@@ -74,7 +74,7 @@ async def start_command(client: Client, message):
                 btn.append(
                       [
                         InlineKeyboardButton(
-                             text = 'Try Again',
+                             text = '♻️ Tʀʏ Aɢᴀɪɴ ♻️',
                              url = f"https://t.me/{client.username}?start={message.command[1]}"
                         )
                     ]
@@ -83,7 +83,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="Kᴏɴɴɪᴄʜɪᴡᴀ Wᴇᴇʙ 👋,\n\nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️Try Again ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : @Straw_Hat_Bots",
+                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐎ᴛᴀᴋᴜ ✨,\n\n𝐃ᴜᴇ ᴛᴏ 𝐎ᴠᴇʀʟᴏᴀᴅ, 𝐎ɴʟʏ 𝐂ʜᴀɴɴᴇʟ 𝐒ᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ 𝐁ᴏᴛ !! ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : @Anime_Flux...",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
