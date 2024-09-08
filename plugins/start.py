@@ -49,7 +49,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐎ᴛᴀᴋᴜ ✨,\n\n𝐃ᴜᴇ ᴛᴏ 𝐎ᴠᴇʀʟᴏᴀᴅ, 𝐎ɴʟʏ 𝐂ʜᴀɴɴᴇʟ 𝐒ᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ 𝐁ᴏᴛ !!\nᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : @Anime_Flux...",
+                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐎ᴛᴀᴋᴜ ✨,\n\n𝐃ᴜᴇ ᴛᴏ 𝐎ᴠᴇʀʟᴏᴀᴅ, 𝐎ɴʟʏ 𝐂ʜᴀɴɴᴇʟ 𝐒ᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ 𝐁ᴏᴛ !!\n𝐏ʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : @Anime_Flux...",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
@@ -83,7 +83,7 @@ async def start_command(client: Client, message):
                 pass
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐎ᴛᴀᴋᴜ ✨,\n\n𝐃ᴜᴇ ᴛᴏ 𝐎ᴠᴇʀʟᴏᴀᴅ, 𝐎ɴʟʏ 𝐂ʜᴀɴɴᴇʟ 𝐒ᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ 𝐁ᴏᴛ !!\nᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : @Anime_Flux...",
+                text="𝐊ᴏɴɴɪᴄʜɪᴡᴀ 𝐎ᴛᴀᴋᴜ ✨,\n\n𝐃ᴜᴇ ᴛᴏ 𝐎ᴠᴇʀʟᴏᴀᴅ, 𝐎ɴʟʏ 𝐂ʜᴀɴɴᴇʟ 𝐒ᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ 𝐁ᴏᴛ !!\n𝐏ʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ ♻️ Tʀʏ Aɢᴀɪɴ ♻️ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ᴀɴɪᴍᴇ ꜰɪʟᴇ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : @Anime_Flux...",
                 reply_markup=InlineKeyboardMarkup(inline_keyboard=btn),
                 parse_mode=ParseMode.MARKDOWN
             )
