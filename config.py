@@ -21,8 +21,8 @@ API_HASH = os.environ.get("API_HASH", "17a51c14e6c25caad1a8f63a97c51f96")
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002163025446"))
 
-CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002332381696"))
-CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002437421840"))
+CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002280632222"))
+CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002372989612"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7400335416"))
@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>Kᴏɴɴɪᴄʜɪᴡᴀ!! {mention} ⚡,\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/+gAKAxMht6bE5MWM1'>𝐀ɴɪᴍᴇ 𝐅ʟᴜx</a></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7162615398 6727550037 1683225887").split()):
+    for x in (os.environ.get("ADMINS", "6496242324 1683225887 7162615398 6685624393 7827448605").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
